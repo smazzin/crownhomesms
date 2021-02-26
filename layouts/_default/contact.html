@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="contact-wrapper">
+    <div class="grid grid--container">
+        <div class="row">
+            <div class="col col--sm-8 col--sm-offset-2">
+            
+                {{ .Content  | safeHTML }}
+            
+                <form id="contact-form" name="contact" data-netlify="true" netlify-honeypot="bot-field" method="POST">
+                    <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value="" required />
+                    <input placeholder="Email" type="email" name="_replyto" onblur="this.setAttribute('value', this.value);" required />
+                    <input placeholder="Phone" type="phone" name="phone" onblur="this.setAttribute('value', this.value);" required />
+                    <textarea name="message" cols="30" rows="6" placeholder="Message" required></textarea>
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="_subject" value="Contact from fidelitybookkeepingsolutions.com" />
+            
+                    <div class="center" style="width: 50%;">
+                        <input class="btn btn-lg btn-red" type="submit" value="Send Message" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

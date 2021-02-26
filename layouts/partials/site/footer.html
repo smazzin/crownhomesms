@@ -1,0 +1,31 @@
+<footer class="footer">
+    <div class="grid grid--container">
+        <div class="row row--sm-center">
+            <div class="col col--sm">
+                <ul class="list-unstyled">
+                    <li>
+                        <span>
+                            <a href="{{ .Site.BaseURL }}" id="nav-logo">
+                                <img src="/images/logo.png" alt="{{ .Site.Title }}">
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <p>
+                            &copy; {{ now.Format "2006" }} &middot; <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col col--sm text--sm-left">
+                <h4>Contact Us</h4>
+                <ul class="list-unstyled footer-contact">
+                    <li><a class="phone-number" href="tel:{{ .Site.Data.contact.phoneAlt }}">{{ .Site.Data.contact.phone }}</a></li>
+                    <li>{{ .Site.Data.contact.Hours }}</li>
+                    <li>{{ .Site.Data.contact.Days }}</li>
+                </ul>
+            </div>
+    </div>
+    </div>
+</footer>

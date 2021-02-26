@@ -1,0 +1,52 @@
+{
+    "tophero": {
+        "title": "Fidelity Bookkeeping Solutions",
+        "alttitle": "Our team is dedicated to helping you and your business succeed. ",
+        "button": "Get More Info",
+        "image": "/images/fidelity-bookkeeping-solutions.jpg"
+    },
+    "services": {
+        "title": "Our Services"
+    },
+    "servicelist": {
+        "items": [
+            {
+                "title": "Full-Charge Bookkeeping",
+                "description": "We will handle all or any part of the data input from invoicing customers, entering and processing bills, payments and payroll to providing you a complete set of financial statements.",
+                "image": "/images/full-charge-bookkeeping-sm.jpg",
+                "url": "/full-charge-bookkeeping"
+            },
+            {
+                "title": "Audit Assistance ",
+                "description": "Audits can be time consuming and overwhelming. Let us alleviate the stress by helping you and your staff prepare for single point or annual audits.",
+                "image": "/images/audit-assistance-sm.jpg",
+                "url": "/audit-assistance"
+            },
+            {
+                "title": "Accounting & Analytics",
+                "description": "We can provide you with an analysis of your financial statements or prepare you a forward looking detailed proforma, helping you to make those important business decisions to further grow your business.",
+                "image": "/images/accounting-analytics-sm.jpg",
+                "url": "/accounting-analytics"
+            },
+            {
+                "title": "Policy & Procedure Development",
+                "description": "Whether you need a financial manual for your bookkeeper, an employee handbook, or a complete set of operational and financial manuals, we can provide you with a customized policy and procedure manual tailored to your needs and processes.",
+                "image": "/images/policy-procedure-development-sm.jpg",
+                "url": "/policy-procedure-development"
+            },
+            {
+                "title": "Consulting Services",
+                "description": "Expert advice to help you optimize your financial performance.",
+                "image": "/images/consulting-services-sm.jpg",
+                "url": "/consulting-services"
+            }
+        ]
+    },
+    "middlehero": {
+        "title": "Who Are We?",
+        "text": "Offering Full-Charge Bookkeeping, consulting, financial analysis, policy and procedure development, audit preparation and assistance for the service, retail, manufacturing and non-profit industries.",
+        "button": "Get More Info",
+        "url": "",
+        "image": "/images/who-are-we.jpg"
+    }
+}
