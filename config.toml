@@ -1,3 +1,71 @@
-baseURL = "http://example.org/"
+baseURL = "https://crownhomesms.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Cown Homes, LLC"
+copyright = "Copyright &copy; {year} Cown Homes, LLC."
+permalinks = "/:slug/"
+
+[params.copyright]
+prefix = ""
+holder = "Cown Homes, LLC"
+startYear = "2020"
+suffix = ""
+
+preserveTaxonomyNames = false
+
+canonifyURLs = true
+
+enableRobotsTXT = true # generate robots.txt
+
+[params]
+disallow_search_engines = false # set robots.txt to disallow everything
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+#disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[blackfriday]
+hrefTargetBlank = true
+
+# [[menu.main]]
+# name = "Home"
+# weight = 1
+# identifier = "Home"
+# url = "/"
+
+[[menu.main]]
+name = "About Us"
+weight = 1
+identifier = "About Us"
+url = "about-us"
+
+# [[menu.main]]
+# name = "Contact us"
+# weight = 4
+# identifier = "Contact Us"
+# url = "contact-us"
