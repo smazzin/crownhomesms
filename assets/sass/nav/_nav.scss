@@ -3,12 +3,12 @@
 }
 
 .navbar-wrapper {
-  background-color: $grey;
+  // background-color: $grey;
 }
 
 .navbar {
   align-items: center;
-  background: $grey;
+  // background: $grey;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -164,7 +164,7 @@
       position: relative;
       width: 100%;
       //display: none;
-      background-color: $grey;
+      // background-color: $grey;
       box-sizing: border-box;
       display: block;
       z-index: 1;
