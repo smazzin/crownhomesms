@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;800&display=swap");
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -154,7 +154,7 @@ template {
 * {
   color: #231F20;
   text-rendering: optimizeLegibility;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Merriweather", serif;
   line-height: 1.7; }
 
 body {
@@ -164,7 +164,7 @@ body {
   line-height: 1.2; }
 
 a {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Merriweather", serif;
   text-decoration: none;
   font-size: 1.25rem;
   color: #231F20; }
@@ -176,10 +176,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: .5rem; }
 
 h1 {
+  font-size: 2.5rem;
   font-weight: 700;
   font-weight: bolder; }
 
 h2 {
+  font-size: 2.5rem;
   font-weight: bolder; }
 
 h3 {
@@ -195,12 +197,12 @@ h6 {
   font-size: 0.875rem; }
 
 p, strong {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1.25rem;
   font-weight: 300; }
 
 ul li {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1.25rem;
   font-weight: 300; }
 
@@ -221,6 +223,9 @@ ul li {
 .title {
   font-weight: bold; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 .left {
   text-align: left; }
 
@@ -235,11 +240,13 @@ ul li {
 .justify {
   text-align: justify; }
 
+.text-blue {
+  color: #1E8CB8; }
+
 .btn {
   color: #ffffff;
   text-decoration: none;
   padding: .25em 2.5em;
-  border-radius: 20px;
   font-size: 1.25rem;
   cursor: pointer; }
 
@@ -260,6 +267,30 @@ ul li {
     transition: all 0.3s ease; }
   .btn-red:active {
     background: #d31a0a; }
+
+.btn-outline-blue {
+  background: transparent;
+  border: 1px solid #1E8CB8;
+  color: #1E8CB8; }
+  .btn-outline-blue:hover {
+    background: #187195;
+    border: 1px solid #187195;
+    transition: all 0.3s ease;
+    color: #ffffff; }
+  .btn-outline-blue:active {
+    background: #0c394a; }
+
+.btn-outline-white {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff; }
+  .btn-outline-white:hover {
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+    transition: all 0.3s ease;
+    color: #ffffff; }
+  .btn-outline-white:active {
+    background: #bfbfbf; }
 
 .logo {
   max-width: 200px; }
@@ -423,6 +454,10 @@ ul li {
   .grid--container {
     margin: 0 auto;
     max-width: 1440px;
+    width: 100%; }
+  .grid--container-sm {
+    margin: 0 auto;
+    max-width: 880px;
     width: 100%; }
   .grid--no-gutters {
     padding: 0; }
@@ -988,6 +1023,7 @@ ul li {
     color: #ffffff; }
   .top-hero-content h1, .top-hero-content h2 {
     color: #ffffff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     margin-top: 1.5em;
     font-weight: bolder; }
     @media (max-width: 900px) {
@@ -1052,7 +1088,7 @@ ul li {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.7) 66.15%, rgba(255, 255, 255, 0) 100%); }
+  background: linear-gradient(178deg, rgba(255, 255, 255, 0) 1.68%, rgba(0, 0, 0, 0.445) 98.31%); }
 
 .overlay-grey {
   position: absolute;
@@ -1076,6 +1112,10 @@ img {
 .pb-2 {
   padding-bottom: 2em; }
 
+.py-3 {
+  padding-top: 3.3334em;
+  padding-bottom: 3.3334em; }
+
 .text-center {
   text-align: center; }
 
@@ -1091,10 +1131,6 @@ img {
 
 .phone-number {
   color: #1E8CB8; }
-
-.services {
-  padding-top: 3.3334em;
-  padding-bottom: 3.3334em; }
 
 .card {
   background: #ffffff;
@@ -1114,17 +1150,8 @@ img {
   width: 100%;
   display: block; }
 
-h2 {
-  position: relative;
-  display: inline-block; }
-
-h2:before {
-  content: '';
-  border-bottom: 0.15em solid #1E8CB8;
-  position: absolute;
-  width: 40%;
-  left: 0;
-  bottom: 0; }
+.bg-light {
+  background-color: #F6F6F6; }
 
 .contact-wrapper {
   padding-top: 3.3334em;

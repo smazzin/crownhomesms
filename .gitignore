@@ -1,6 +1,8 @@
 # Dependency folders
 node_modules
-bower_components
+functions
+public
+resources
 vendor
 
 # Caches
