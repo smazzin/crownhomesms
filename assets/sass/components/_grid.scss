@@ -8,6 +8,12 @@
     width: 100%;
   }
 
+  @include variant(container-sm) {
+    margin: 0 auto;
+    max-width: $container-sm;
+    width: 100%;
+  }
+
   @include variant(no-gutters) {
     padding: 0;
   }
