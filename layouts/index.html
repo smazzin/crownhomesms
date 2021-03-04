@@ -59,15 +59,17 @@
     </div>
 </section>
 <section>
-    <div class="grid grid--container-sm">
-        <div class="row">
-            <div class="col col--sm-12">
-                <h3>{{ .Site.Data.reviews.ReviewTitle.title }}</h3>
-                {{ range last 1 .Site.Data.reviews.reviews }}
-                    <img src="{{ .image }}" alt="Crown Homes, LLC Client Story - {{ .Name }}">
-                    {{ .Comment }}<br>
-                    {{ .Name }}
-                {{ end }}
+    <div class="py-3 text-center">
+        <div class="grid grid--container-sm">
+            <div class="row">
+                <div class="col col--sm-12">
+                    <h2 class="text-blue mb-2">{{ .Site.Data.reviews.ReviewTitle.title }}</h2>
+                    {{ range last 1 .Site.Data.reviews.reviews }}
+                        <img class="img-round" src="{{ .image }}" alt="Crown Homes, LLC Client Story - {{ .Name }}">
+                        <p class="title text-blue">{{ .Name }}</p>
+                        <p>{{ .Comment }}</p>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>
