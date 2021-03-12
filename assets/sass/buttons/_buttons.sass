@@ -8,7 +8,8 @@
   
   &:active 
     background: darken($bg, 25%)
-
+    
+//btn-outline-blue
 @mixin button-outline($bg-transparent) 
   background: transparent
   border: 1px solid $bg-transparent
@@ -22,7 +23,22 @@
   &:active 
     background: darken($bg-transparent, 25%)
 
+//btn-outline-white
+@mixin button-outline-white($bg-transparent-white) 
+  background: transparent
+  border: 1px solid $bg-transparent-white
+  color: $bg-transparent-white
+  &:hover 
+    background: darken($bg-transparent-white, 8%)
+    border: 1px solid darken($bg-transparent-white, 8%)
+    transition: all 0.3s ease
+    color: $blue
+  
+  &:active 
+    background: darken($bg-transparent-white, 25%)
+
 .btn
+ display: inline-block
  color: $white
  font-family: $sans-font-family
  text-decoration: none
@@ -45,4 +61,4 @@
    @include button-outline($blue)
 
 .btn-outline-white
-   @include button-outline($white)
+   @include button-outline-white($white)
