@@ -18,5 +18,18 @@
         "button": "Schedule a call with crown homes",
         "url": "",
         "image": "/images/crown-homes-kitchen-custom-built.jpg"
+    },
+    "homeCTA": {
+        "title": "Ready to Build Your Dream Home?",
+        "button": "CONTACT US TODAY",
+        "url": "/contact-us"
+    },
+    "about": {
+        "title": "About Us",
+        "text": "Crown Homes, LLC is a licensed & insured residential home builder operating in the central Mississippi area, focusing on Rankin County real estate. We specialize in New Residential Homes and Custom Homes, and also provide current listings of new houses for sale in Brandon and Pearl Mississippi.",
+        "image": "/images/crownover-family.jpg",
+        "bgimage": "/images/woodbg.jpg",
+        "button": "Learn More",
+        "url": "/about-us"
     }
 }
