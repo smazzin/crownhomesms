@@ -31,7 +31,7 @@
             <div class="row row--sm-center">
                 <div class="col col--sm-6">
                     <p>{{ .Site.Data.home.video.text }}</p>
-                    <a class="btn btn-outline-blue" href="{{ .Site.Data.contact.contactUrl }}">{{ .Site.Data.home.video.button }}</a>
+                    <a class="btn btn-lg btn-outline-blue" href="{{ .Site.Data.contact.contactUrl }}">{{ .Site.Data.home.video.button }}</a>
                 </div>
                 <div class="col col--sm-6">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/NQkUe79EAbw" frameborder="0"
@@ -69,6 +69,52 @@
                         <p class="title text-blue">{{ .Name }}</p>
                         <p>{{ .Comment }}</p>
                     {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-blue">
+    <div class="py-1 text-center">
+        <div class="grid grid--container-sm">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-white">
+                        {{ .Site.Data.home.homeCTA.title }}
+                    </h2>
+                    <a href="{{ .Site.Data.home.homeCTA.url }}" class="btn btn-lg btn-outline-white">
+                        {{ .Site.Data.home.homeCTA.button }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="background-image: url(' {{ .Site.Data.home.about.bgimage | relURL }} ') ;">
+    <div class="py-3">
+        <div class="grid grid--container-sm">
+            <div class="row">
+                <div class="col col--sm-12">
+                    <div class="card-white">
+                        <div class="row">                            
+                            <div class="col col--sm-6">
+                                <div class="card-body">
+                                    <h3 class="text-blue">
+                                        {{ .Site.Data.home.about.title }}
+                                    </h3>
+                                    <p>
+                                        {{ .Site.Data.home.about.text }}
+                                    </p>
+                                    <a class="border-bottom-red" href="{{ .Site.Data.home.about.url }}">
+                                        {{ .Site.Data.home.about.button }}
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col col--sm-6">
+                                <img src="{{ .Site.Data.home.about.image }}" alt="{{ .Site.Data.home.about.title }} - Crown Homes, LLC">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
