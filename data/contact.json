@@ -1,11 +1,21 @@
 {
-    "email": null,
-    "address": null,
+    "email": "info@crownhomesms.com",
     "phone": "(601) 724-4466",
     "phoneAlt": "601-724-4466",
-    "buttonblurb": "Get More Info",
     "contactUrl": "/contact-us",
     "BusinessName": "Crown Homes, LLC",
-    "Hours": "Mon - Fri 8:00 AM - 5:00 PM",
-    "Days": "Sat - Sun Closed"
+    "googlemap": "https://www.google.com/maps/place/Crown+Homes+LLC/@32.2322134,-90.0643496,17z/data=!3m1!4b1!4m5!3m4!1s0x8628297d52602103:0xbcefbfdae80e2f50!8m2!3d32.2322134!4d-90.0621609?shorturl=1",
+    
+    "facebook": {
+        "blurb": "Follow Us on Facebook",
+        "url": "https://www.facebook.com/crownhomesllc"
+    },
+
+    "Address": {
+        "street": "160 Jamison Ct.",
+        "city": "Brandon",
+        "state": "Mississippi",
+        "zip": "39042"
+    }
+    
 }
