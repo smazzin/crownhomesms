@@ -1,7 +1,7 @@
 <footer class="footer">
-    <div class="grid grid--container">
-        <div class="row row--sm-center">
-            <div class="col col--sm">
+    <div class="container">
+        <div class="grid-3">
+            <div>
                 <ul class="list-unstyled">
                     <li>
                         <div class="logo">
@@ -32,10 +32,8 @@
                     <li>
                     </li>
                 </ul>
-                
             </div>
-            <div class="col col--sm text--sm-left">
-                
+            <div class="">
                 <ul class="list-unstyled footer-contact">
                     <li>
                         <a class="phone-number" href="tel:{{ .Site.Data.contact.phoneAlt }}">
@@ -69,7 +67,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col col--sm text--sm-left">
+            <div class="">
                 <ul class="list-unstyled">
                     {{ range .Site.Menus.main }}
                     <li>
@@ -82,12 +80,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col col--sm-12">
-                <p class="copy">
-                    &copy; {{ now.Format "2006" }} &middot; <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-                </p>
-            </div>
-        </div>
+        <p class="copy">
+            &copy; {{ now.Format "2006" }} &middot; <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        </p>
     </div>
 </footer>
