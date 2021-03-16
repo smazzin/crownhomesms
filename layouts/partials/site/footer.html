@@ -11,7 +11,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="address" href="{{ .Site.Data.contact.googlemaps }}">
+                        <a class="address" href="{{ .Site.Data.contact.googlemap }}">
                             <span class="map-icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -35,7 +35,7 @@
             </div>
             <div class="">
                 <ul class="list-unstyled footer-contact">
-                    <li>
+                    <li class="mb-1">
                         <a class="phone-number" href="tel:{{ .Site.Data.contact.phoneAlt }}">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -45,7 +45,7 @@
                             {{ .Site.Data.contact.phone }}
                         </a>
                     </li>
-                    <li>
+                    <li class="mb-1">
                         <a href="mailto:{{ .Site.Data.contact.email }}">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="white"
@@ -55,7 +55,7 @@
                             {{ .Site.Data.contact.email }}
                         </a>
                     </li>
-                    <li>
+                    <li class="mb-1">
                         <a href="{{ .Site.Data.contact.facebook.url }}">
                             <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -70,7 +70,7 @@
             <div class="">
                 <ul class="list-unstyled">
                     {{ range .Site.Menus.main }}
-                    <li>
+                    <li class="mb-1">
                         <a href="{{.URL | relURL }}">
                             {{ .Pre }}
                             {{ .Name }}
