@@ -2,7 +2,7 @@
     {{ partial "heroalternate" (dict "imageUrl" .Params.image "title" .Params.herotitle "text" .Params.herotext "buttonText"
     $.Site.Data.contact.buttonblurb "contactUrl" $.Site.Data.contact.contactUrl) }}
 <div class="contact-wrapper">
-    <div class="container">
+    <section class="container">
         <div class="grid mb-2">
             {{ .Content  | safeHTML }}
         </div>
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <section>
         <div class="py-3 text-center">
             <div class="container-sm">
