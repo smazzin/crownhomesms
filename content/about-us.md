@@ -1,6 +1,6 @@
 ---
-title: "About us"
-description: About Us
+title: "About-us - Crown Homes - Brandon Mississippi Home Builders"
+description: In August, 2014, JT began Crown Homes, with the goal of becoming one of the most respected home builders in Brandon, MS. Today, Crown Homes is one of the area’s most respected Rankin County homebuilders specializing in New Residential Homes, Custom Homes, New Homes For Sale and Real Estate focused in Rankin County.
 date: 2021-02-26T16:08:08-08:00
 layout: singlenohero
 ---
