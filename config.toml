@@ -1,4 +1,4 @@
-baseURL = "https://crownhomes-dev.netlify.app/"
+baseURL = "https://crownhomes.netlify.app/"
 languageCode = "en-us"
 title = "Cown Homes, LLC"
 copyright = "Copyright &copy; {year} Cown Homes, LLC."
