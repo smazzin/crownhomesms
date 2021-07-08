@@ -6,7 +6,7 @@ permalinks = "/:slug/"
 
 [params.copyright]
 prefix = ""
-holder = "Cown Homes, LLC"
+holder = "Crown Homes, LLC"
 startYear = "2020"
 suffix = ""
 
