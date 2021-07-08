@@ -1,7 +1,7 @@
 baseURL = "https://crownhomesms.com/"
 languageCode = "en-us"
 title = "Crown Homes, LLC"
-copyright = "Copyright &copy; {year} Cown Homes, LLC."
+copyright = "Copyright &copy; {year} Crown Homes, LLC."
 permalinks = "/:slug/"
 
 [params.copyright]
