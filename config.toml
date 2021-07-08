@@ -1,6 +1,6 @@
 baseURL = "https://crownhomesms.com/"
 languageCode = "en-us"
-title = "Cown Homes, LLC"
+title = "Crown Homes, LLC"
 copyright = "Copyright &copy; {year} Cown Homes, LLC."
 permalinks = "/:slug/"
 
@@ -14,7 +14,7 @@ preserveTaxonomyNames = false
 
 canonifyURLs = true
 
-enableRobotsTXT = true # generate robots.txt
+enableRobotsTXT = false # generate robots.txt
 
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
